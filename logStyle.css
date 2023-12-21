@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(216, 233, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+header{
+    background-color: rgb(216, 233, 247);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+main{
+    background-color: rgb(216, 233, 247);
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 3px solid;
+}
+
+h1{
+    text-align: center;
+}
+
+#forma{
+    border: 2px solid;
+}
+
+form{
+    margin: 3%;
+}
+
+a{
+    margin-top: 50px;
+}
+
+article{
+    background-color: rgb(216, 233, 247);
+    margin: 5%;
+}

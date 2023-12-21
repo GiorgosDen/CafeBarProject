@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+}
+nav{
+    background-color: rgb(100, 100, 255);
+    text-align: center;
+}
+
+.row{
+    min-height:60px;
+}
+
+.card{
+    background-color: rgb(150, 150, 255);
+}
+
+form{
+    border-style: ridge;
+    background-color: rgb(250, 240, 225);
+    padding: 10px;
+}
+
+.formCol{
+    margin-left: 350px;
+   
+}
+
+h5,h1{
+   
+    text-shadow: 2px 2px 5px rgb(70, 70, 255);
+}

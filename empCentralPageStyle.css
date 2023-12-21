@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(216, 233, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+header{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-bottom: 0%;
+}
+
+main{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+section{
+    margin-bottom: 10%;
+}
+
+
+h1{
+    font-style: italic;
+    color: rgb(35, 18, 50);
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#ct{
+    width: 120%;
+    text-align: center;
+}
+
+
+#endPage{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
